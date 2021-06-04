@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 @import url('https://fonts.googleapis.com/css?family=Gelasio|Kulim+Park|Nanum+Myeongjo|Nanum+Gothic|Noto+Sans|Noto+Sans+KR|Roboto&display=swap');
 @import url(syntax/monokai.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -29,7 +29,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Roboto", "Nanum Gothic";
+  --font-family-sans-serif: 'Gothic A1';
   --font-family-serif: "Nanum Myeongjo";
 }
 
@@ -93,6 +93,7 @@ code {
 
 .sidebar {
 	/*position: fixed;*/
+	/* width: 500px; */
 	display: flex;
 	flex-flow: column nowrap;
 	flex: 0 0 220px;
