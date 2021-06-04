@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gelasio|Kulim+Park|Nanum+Myeongjo|Nanum+Gothic|Noto+Sans|Noto+Sans+KR|Roboto&display=swap');
 @import url(syntax/monokai.css);
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -30,7 +31,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: 'Gothic A1';
-  --font-family-serif: "Nanum Myeongjo";
+  --font-family-serif: "Gothic A1";
 }
 
 * {
@@ -49,7 +50,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Gelasio', 'Nanum Myeongjo', serif;
+	font-family: 'Gothic A1', sans-serif;
 	color: #2c3e50;
 }
 
@@ -96,10 +97,9 @@ code {
 	/* width: 500px; */
 	display: flex;
 	flex-flow: column nowrap;
-	flex: 0 0 220px;
-	padding: 15px;
+	padding: 100px 45px;
 	z-index: 1;
-	background-color: #222;
+	background-color: #333;
 	color: #fff;
 }
 
@@ -113,12 +113,14 @@ code {
 }
 
 .sidebar-brand > a {
-	font-size: 300%;
+	font-size: 230%;
 	font-family: 'Gelasio';
 	color: #fff;
+	margin-left : -2%;
 }
 
 .lead {
+	margin-top: 1%;
 	font-size: 120%;
 	color: #aaa;
 }
@@ -233,7 +235,7 @@ article h3,
 article h4,
 article h5,
 article h6 {
-	font-family: "Roboto", "Nanum Gothic";
+	font-family: "Gothic A1", "Nanum Gothic";
 	color: #333;
   	margin-bottom: 0;
 }
@@ -291,7 +293,7 @@ footer {
 	margin-top: 80px;
 	font-size: 0.75em;
 	font-weight: lighter;
-	font-family: "Roboto";
+	font-family: "Gothic A1";
 	line-height: 1.5;
 }
 
@@ -315,7 +317,6 @@ footer {
 
 	.sidebar {
 		font-size: 0.8em;
-		flex: 0 0 auto;
 		flex-flow: row nowrap;
 		height: auto;
 	}
